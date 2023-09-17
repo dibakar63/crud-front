@@ -14,7 +14,7 @@ const AddUsers = () => {
     const navigate=useNavigate()
     const dataHandler=async(e)=>{
         e.preventDefault()
-        const res= await axios.post('http://localhost:4000/api/v1/add',{name,email,phone,date,gender})
+        const res= await axios.post('https://crud-back2.onrender.com/api/v1/add',{name,email,phone,date,gender})
         try {
             if(res && res.data.success){
               alert('Data added sucessfully')
