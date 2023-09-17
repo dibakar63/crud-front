@@ -15,7 +15,7 @@ const Users = () => {
     
   //  const id=useParams().id
   const fetchHandler=async(search)=>{
-   return  await axios.get(`http://localhost:4000/api/v1/get`)
+   return  await axios.get(`https://crud-back2.onrender.com/api/v1/get`)
     .then((res)=>res.data);
 
   }
@@ -38,7 +38,7 @@ const Users = () => {
   }
   
   const deleteHandler=async(id)=>{
-    const res= await axios.delete(`http://localhost:4000/api/v1/delete/${id}`)
+    const res= await axios.delete(`https://crud-back2.onrender.com/api/v1/delete/${id}`)
     try {
       if(res && res.data.success){
         alert('Data deleted sucessfully')
