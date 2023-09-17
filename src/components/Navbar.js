@@ -14,7 +14,7 @@ const Navbar = () => {
     <div className='Navbar'>
     
         <Link to='/add'> <AiFillPlusCircle/></Link>
-        <a href='http://localhost:4000/api/v1/get' download='http://localhost:4000/api/v1/get' target='_blank'><AiOutlineDownload/></a>
+        <a href='https://crud-back2.onrender.com/api/v1/get' download='http://localhost:4000/api/v1/get' target='_blank'><AiOutlineDownload/></a>
     </div>
   )
 }
