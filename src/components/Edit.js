@@ -14,7 +14,7 @@ const Edit = () => {
     const navigate=useNavigate()
     const dataHandler=async(e)=>{
         e.preventDefault()
-        const res= await axios.put(`https://crud-back2.onrender.com/v1/update/${id}`,{name,email,phone,date,gender})
+        const res= await axios.put(`https://crud-back2.onrender.com/api/v1/update/${id}`,{name,email,phone,date,gender})
         try {
             if(res && res.data.success){
               alert('Data updated sucessfully')
