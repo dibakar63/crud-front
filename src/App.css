@@ -36,3 +36,62 @@
     transform: rotate(360deg);
   }
 }
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #4488e0;
+  
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.Navbar{
+  background-color: #9ec0ed;
+  height:50px ;
+  color: white;
+  
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  
+}
+Link{
+  margin-right: 30px;
+}
+a{
+  text-decoration: none;
+  font-size: 30px;
+  color:white;
+  margin-bottom: 2px;
+  margin-right: 40px;
+}
+.formData{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  border: 0.5px solid gray;
+  padding: 30px;
+  background-color: #4488e0;
+  text-align: center;
+  width: 30%;
+  border-radius: 5%;
+  background-image: url('https://codecary.com/wp-content/uploads/2021/11/CSS-Animated-Backgrounds.gif');
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.8);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.8);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.8);
+}
+.input{
+  margin-top: 8px;
+  height: 30px;
+  border-radius: 5%;
+  border: none;
+  margin-right: 10px;
+}
